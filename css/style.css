@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* sheared style here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* header style start  */
+header{
+    padding: 5rem 7rem;
+}
+.nav-title{
+    color: #3A3A3A;
+    
+    font-weight: 700;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 34px;
+    
+}
+ul>li{
+    list-style-type: none;
+    
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+ul>li>a:hover{
+  color: rgb(192, 4, 4);
+   
+}
+
+.banner{
+    display: flex;
+    margin-top: 5.5rem;
+    gap: 50px;
+ 
+    
+}
+
+.banner-content{
+ 
+    width: 100%;
+   
+}
+.banner-img{
+    width: 100%;
+
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+  
+  
+}
+
+
+.banner-text{
+    padding: 4rem 0px 0px 0px;
+ 
+}
+
+
+
+.banner-title{
+    color: #3A3A3A;
+
+font-size: 3rem;
+
+font-weight: 700;
+line-height: 70px; /* 134.615% */
+}
+.banner-description{
+    color: #3A3A3A;
+    font-size: 16px;
+    /* width: 34rem; */
+   
+    font-weight: 600;
+
+}
+.banner-prebook:hover{
+    background: #f51c1c;
+}
+.banner-prebook{
+    cursor: pointer;
+    border-radius: 41px;
+background: #E02C6D;
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+padding: 5px 15px;
+border:none;
+margin-top: 1rem;
+}
+
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive for mobile screen  */
+
+@media screen and (max-width:600px) {
+
+    header{
+        padding: 20px;
+    }
+
+nav{
+    flex-direction: column;
+}
+ul{
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.banner{
+    flex-direction: column-reverse;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-prebook{
+ margin-left: auto; 
+ margin-right: auto;
+}
+
+
+    
+}
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:900px) {
+
+    header{
+        padding: 20px;
+    }
+
+nav{
+    flex-direction: column;
+}
+ul{
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.banner{
+    flex-direction: column-reverse;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-prebook{
+ margin-left: auto; 
+ margin-right: auto;
+}
+
+
+    
+}
