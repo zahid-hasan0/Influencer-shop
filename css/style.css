@@ -165,7 +165,7 @@ main{
     display: block;
     color: #E02C6D;
     text-align: right;
-   
+    margin-bottom: 100px;
     grid-column: span 3;
 }
 
@@ -175,7 +175,7 @@ main{
     grid-template-rows: 450px 450px 450px ;
     margin-top: 30px;
     gap: 30px;
-    margin-bottom: 100px;
+  
 }
 
 .cart{
@@ -260,6 +260,10 @@ ul{
     grid-template-columns: repeat(1,1fr);
 }
 
+.feature{
+    flex-direction: column-reverse;
+}
+
 
     
 }
@@ -270,8 +274,9 @@ ul{
 
 
 @media screen and (min-width:600px) and (max-width:900px) {
-
-    header{
+    header,
+    main
+    {
         padding: 20px;
     }
 
@@ -297,9 +302,15 @@ ul{
     flex-wrap: wrap;
     
 }
+
 .collection-container{
     grid-template-columns: repeat(1,1fr);
 }
+
+.feature{
+    flex-direction: column-reverse;
+}
+
 
 
     
