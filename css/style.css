@@ -183,6 +183,7 @@ main{
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding:1rem;
+
 }
 
 .feature{
@@ -309,8 +310,23 @@ ul{
 
 .feature{
     flex-direction: column-reverse;
+    text-align: center;
+}
+.feature-image  img{
+    width: 100%;
 }
 
+.cart{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.cart-content{
+    width: fit-content;
+}
 
 
     
